@@ -16,7 +16,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3000
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
@@ -117,18 +117,18 @@ Material:
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
     - _noise_cellSpeed: 0.3
-    - _noise_scale: 2.76
-    - _rotation: 300
+    - _noise_scale: 3.66
+    - _rotation: 50
     m_Colors:
     - _Alpha_GradientHeight: {r: 0.71, g: 0.98, b: 0, a: 0}
-    - _Alpha_Remap: {r: 0, g: 1, b: 0, a: 0}
+    - _Alpha_Remap: {r: 0, g: 95.26, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0, g: 2.0846102, b: 3.482202, a: 1}
+    - _Color: {r: 0.72592074, g: 0.30286205, b: 4.938979, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Vector2: {r: 0.53, g: 0.81, b: 0, a: 0}
+    - _Vector2: {r: 0.18, g: 3.76, b: 0, a: 0}
     - _noise_speed: {r: 10, g: 0, b: 0, a: 0}
-    - _noise_tiling: {r: 3.01, g: 1, b: 0, a: 0}
+    - _noise_tiling: {r: 1.74, g: 1, b: 0, a: 0}
     - _uv_map: {r: 0, g: 0, b: 0, a: 0}
     - uv_map: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
