@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Portal
-  m_Shader: {fileID: -6465566751694194690, guid: 614ce027ee069f04cad9b19a287946ba, type: 3}
+  m_Name: M_Portal 1
+  m_Shader: {fileID: -6465566751694194690, guid: 4eecd315cd6c8de40b28f9cfee311718, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -28,6 +28,18 @@ Material:
         m_Texture: {fileID: 2800000, guid: 39b57306c6ea73e47afbbc67cea791c0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_211f6bd0365b4c9b955dbeec73b2cad5_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: a323985621046e74889f213e647df196, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_28c465775133461f975b5b0f993a87bd_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: a323985621046e74889f213e647df196, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_e7671f4a20624e158f538ec79f6d3ad5_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: a323985621046e74889f213e647df196, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -42,25 +54,32 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Noise_Strength: 0.259
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _Twirl_Strength: 78.96
     - _emission: 0.78
     - _noise1_density: 0.38
     - _noise2_density: 4.87
     - _noise2_offset: 0.1
     - _noise2_power: 2.65
-    - _noise2_rotation: 1
+    - _noise2_rotation: 0.5
     - _noise2_scale: 8.76
     - _noise2_strength: 6.5
     - _noise2_tiling: 0
-    - _power: 1.54
+    - _noiseStrength: 0.026
+    - _power: 2.4
+    - _speed: 5
+    - _speed_1: 1
+    - _speed_2: 1
     - _twirl_offset: 0.1
-    - _twirl_rotation: 0.8
+    - _twirl_rotation: 0.5
     - _twirl_strength: 6.5
     m_Colors:
     - _BaseColor: {r: 0.0005779551, g: 0, b: 0.002925857, a: 1}
-    - _Color: {r: 0.16394947, g: 0, b: 0.7490196, a: 1}
-    - _noise2_smoothStep: {r: 0.18, g: 0.59, b: 0, a: 0}
+    - _Color: {r: 0.21989536, g: 0, b: 1, a: 1}
+    - _Vector2: {r: 0, g: 1, b: 0, a: 0}
+    - _noise2_smoothStep: {r: 0.29, g: 0.7, b: 0, a: 0}
     - _noise2_tiling: {r: 1, g: 1, b: 0, a: 0}
     - _smoothstep: {r: 0, g: 1.06, b: 0, a: 0}
     - _sub_SmoothStep: {r: 0.64, g: 0.85, b: 0, a: 0}

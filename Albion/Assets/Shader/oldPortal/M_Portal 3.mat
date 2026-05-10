@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Portal 2
+  m_Name: M_Portal 3
   m_Shader: {fileID: -6465566751694194690, guid: 4eecd315cd6c8de40b28f9cfee311718, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -54,10 +54,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Noise_Strength: 0.05
+    - _Noise_Strength: 0.581
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Twirl_Strength: 20
+    - _Twirl_Strength: 78.96
     - _emission: 0.78
     - _noise1_density: 0.38
     - _noise2_density: 4.87
@@ -67,18 +67,18 @@ Material:
     - _noise2_scale: 8.76
     - _noise2_strength: 6.5
     - _noise2_tiling: 0
-    - _noiseStrength: 0
-    - _power: 1.54
-    - _speed: 0.3
-    - _speed_1: 0.1
-    - _speed_2: 0
+    - _noiseStrength: 0.026
+    - _power: 3.02
+    - _speed: 10
+    - _speed_1: 1
+    - _speed_2: 1
     - _twirl_offset: 0.1
     - _twirl_rotation: 0.5
     - _twirl_strength: 6.5
     m_Colors:
     - _BaseColor: {r: 0.0005779551, g: 0, b: 0.002925857, a: 1}
     - _Color: {r: 0.21989536, g: 0, b: 1, a: 1}
-    - _Vector2: {r: 0, g: 1.86, b: 0, a: 0}
+    - _Vector2: {r: 0, g: 1, b: 0, a: 0}
     - _noise2_smoothStep: {r: 0.29, g: 0.7, b: 0, a: 0}
     - _noise2_tiling: {r: 1, g: 1, b: 0, a: 0}
     - _smoothstep: {r: 0, g: 1.06, b: 0, a: 0}
